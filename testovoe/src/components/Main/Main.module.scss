@@ -1,0 +1,332 @@
+.main {
+  display: flex;
+  gap: 24px;
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+.header {
+  background-color: rgba(255, 255, 255, 1);
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 129.38px;
+  height: 32px;
+}
+.linkPoint {
+  text-decoration: none;
+  color: rgba(6, 8, 44, 1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+.linkA {
+  text-decoration: none;
+  color: rgba(147, 149, 184, 1);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+}
+.profil {
+  display: flex;
+  align-items: center;
+}
+.links {
+  display: flex;
+  gap: 30px;
+}
+.link {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.langChoce {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+.profil {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 24px;
+}
+.mainLeft {
+  margin-top: 24px;
+  display: flex;
+  width: 765px;
+  height: 859px;
+  padding: 28px 24px 28px 24px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+}
+.postText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: rgba(123, 126, 165, 1);
+}
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.readMore {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 548;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  font-variation-settings: "slnt" 0;
+  color: rgba(53, 55, 84, 1);
+}
+.date {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(147, 149, 184, 1);
+}
+.postH {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.699999988079071px;
+  text-align: left;
+  color: rgba(6, 8, 44, 1);
+}
+.pictures {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.pictures1 {
+  display: flex;
+  gap: 10px;
+}
+.likes {
+  margin-top: 16px;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 16px;
+}
+.likesSector {
+  display: flex;
+  gap: 6px;
+  cursor: pointer;
+}
+.likesText {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: rgba(147, 149, 184, 1);
+}
+.reviews {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.avatar {
+}
+.userinfo {
+}
+.name {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  color: rgba(123, 126, 165, 1);
+}
+.rew {
+  font-size: 14px;
+  font-weight: 548;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  font-variation-settings: "slnt" 0;
+  color: rgba(6, 8, 44, 1);
+}
+.reviewTime {
+}
+.mainRight {
+  margin-top: 24px;
+}
+.time {
+  color: rgba(123, 126, 165, 1);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: left;
+}
+.rewButton {
+  cursor: pointer;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 548;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  font-variation-settings: "slnt" 0;
+  border: none;
+  background-color: transparent;
+  color: rgba(53, 55, 84, 1);
+}
+.userinfo {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.review1 {
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+}
+.review2 {
+  gap: 12px;
+  margin-left: 30px;
+  display: flex;
+  align-items: flex-start;
+}
+.filter {
+  display: flex;
+  flex-direction: column;
+  width: 371px;
+  height: 294px;
+  padding: 24px 20px 24px 20px;
+  gap: 24px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.filterImg {
+  transition: filter 0.3s;
+  &:hover {
+    filter: brightness(1) invert(2);
+  }
+}
+.filterButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.filterH {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.699999988079071px;
+  text-align: left;
+  color: rgba(6, 8, 44, 1);
+}
+.filterButton {
+  width: 331px;
+  height: 40px;
+  padding: 10px;
+  gap: 12px;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 548;
+  line-height: 20px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  font-variation-settings: "slnt" 0;
+  color: rgba(123, 126, 165, 1);
+  transition: all 0.3s;
+  &:hover {
+    color: rgba(6, 8, 44, 1);
+    background-color: rgba(241, 243, 247, 1);
+  }
+}
+.advertisment {
+  margin-top: 24px;
+  display: flex;
+  width: 371px;
+  height: 540px;
+  border-radius: 20px 20px 0px 0px;
+  background-image: url(./adv.jpg);
+  background-size: cover;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.bikeSport {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 119px;
+  height: 32px;
+  top: 378px;
+  left: 32px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.699999988079071px;
+  color: rgba(6, 8, 44, 1);
+  background-color: rgba(250, 250, 251, 1);
+}
+.moscow {
+  display: flex;
+  width: 147px;
+  height: 32px;
+  gap: 8px;
+  background: rgb(147, 149, 184);
+  align-items: center;
+  justify-content: center;
+}
+.moscowtext {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.699999988079071px;
+  color: rgba(250, 250, 251, 1);
+}
+.year {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.699999988079071px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.advmain {
+  padding-left: 32px;
+  display: flex;
+  width: 371px;
+  height: 90px;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.01em;
+  color: rgb(6, 8, 44);
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+}
+.advstroke {
+  gap: 0px;
+  display: flex;
+  margin-bottom: -1px;
+}
